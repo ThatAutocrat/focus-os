@@ -5,6 +5,7 @@ export const sessions = writable([]);
 export const journal = writable('');
 
 export async function loadSessions() {
+  sessions.set([]);
   const today = new Date().toISOString().split('T')[0];
   const { data } = await supabase
     .from('sessions')
@@ -24,6 +25,7 @@ export async function saveSession(mins) {
 }
 
 export async function loadJournal() {
+  journal.set('');
   const today = new Date().toISOString().split('T')[0];
   const { data } = await supabase
     .from('sessions')
