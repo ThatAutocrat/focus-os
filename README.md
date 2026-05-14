@@ -1,9 +1,13 @@
-# sv
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## FocusOS
+A personal productivity app built with SvelteKit + Supabase.
+Features a Pomodoro timer, task manager, session journal, and daily stats — all synced to your account.
+Built to learn SvelteKit, Supabase auth, and row-level security from scratch.
+
+
 
 ## Creating a project
-
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 If you're seeing this, you've probably already done this step. Congrats!
 
 ```sh
